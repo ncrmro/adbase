@@ -38,6 +38,3 @@ RUN apt-get remove --purge -y $BUILD_PACKAGES \
     && rm -rf /var/lib/apt/lists/*
 
 RUN yarn
-
-
-e
