@@ -1,0 +1,7 @@
+django
+graphene-django
+django-filter
+django-environ
+django-webpack-loader
+pyjwt
+django-jwt-auth
