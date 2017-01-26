@@ -7,11 +7,11 @@
   "pre-commit": "lint",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncrmro/ango.git"
+    "url": "git+https://github.com/ncrmro/adbase.git"
   },
   "engines": {
     "node": "6.7.0",
-    "npm": "4.10.3"
+    "npm": "3.10.3"
   },
   "author": "Nicholas Romero",
   "license": "MIT",
