@@ -15,3 +15,8 @@ RUN apt-get update \
     && apt-get install -y nodejs \
     && apt-get install -y yarn \
     && apt-get remove --purge -y $BUILD_PACKAGES
+
+COPY . $INSTALL_PATH/
+
+RUN pip3 install --upgrade pip && pip3 install -r $INSTALL_PATH/requirements.txt && yarn
+
