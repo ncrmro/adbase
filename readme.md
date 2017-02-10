@@ -1,5 +1,5 @@
 # adbase
-An ango docker base image
+A reango docker base image
 
 * npm
 * yarn

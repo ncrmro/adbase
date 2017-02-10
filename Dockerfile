@@ -1,6 +1,6 @@
 FROM node:6.9.5-alpine
 
-ENV INSTALL_PATH=/ango \
+ENV INSTALL_PATH=/reango \
     BUILD_PACKAGES="apt-transport-https python-software-properties"
 
 WORKDIR $INSTALL_PATH
