@@ -10,3 +10,9 @@ whitenoise==3.2.2
 prospector==0.12.4
 coverage==4.2
 selenium==3.0.2
+faker==0.7.7
+factory_boy==2.8.1
+celery==4.1.0
+django-celery-results==1.0.1
+django-celery-beat==1.0.1
+scrapy==1.4.0

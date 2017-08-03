@@ -7,7 +7,11 @@ WORKDIR $INSTALL_PATH
 
 COPY . $INSTALL_PATH/
 
-RUN apk add -U --no-cache python3 ca-certificates postgresql-dev gcc python3-dev musl-dev git libffi && \
+# Notes on making image smaller
+# Celery beat or Scrappy libxml2 libxml2-dev
+# Psycopg2 python3 python3-dev postgresql-dev
+# Gitlab checkout Git
+RUN apk add -U --no-cache python3 ca-certificates postgresql-dev gcc python3-dev musl-dev git libffi libffi-dev linux-headers libxml2 libxml2-dev libxslt-dev && \
     python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
     pip3 install --no-cache-dir --upgrade pip setuptools && \
