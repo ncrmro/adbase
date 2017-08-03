@@ -2,6 +2,7 @@ FROM node:8.1.2-alpine
 
 ENV INSTALL_PATH=/reango
 #    BUILD_PACKAGES="apt-transport-https python-software-properties"
+#    POST_BUILD="python3"
 
 WORKDIR $INSTALL_PATH
 
