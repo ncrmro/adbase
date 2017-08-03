@@ -21,3 +21,6 @@ RUN apk add -U --no-cache python3 ca-certificates postgresql-dev gcc python3-dev
     npm cache clean && \
     yarn && yarn cache clean && \
     apk del musl-dev zlib-dev openssl-dev
+
+# docker build -t ncrmro/adbase:alpine . && docker push ncrmro/adbase:alpine
+# Original is 365MB at time of creation
